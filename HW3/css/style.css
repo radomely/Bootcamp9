@@ -40,8 +40,8 @@
 }
 
 .text{
-    font-size: 24px;
-    line-height: 2;
+    font-size: 10px;
+    line-height: 1;
 } 
 
 
@@ -58,30 +58,20 @@
     clear: both;
 }
 
-img{
-    margin-top: -4px;
-    width: 400px;
-    height: auto;
-    /* display: block; */
-}
 
-.border{
+/* .border{
     display: block;
     border-radius: 106px 24px 38px 165px;
-}
+} */
 
-.shadow{
-    box-shadow: 76px -14px 76px 1px rgba(219,21,219,1);
-}
 .menu{
     width: 1024px;
     background-color: aliceblue;
 }
 
 .article{
-    width: 250px;
-    height: 50px;
+    width: 460px;
     border: 2px solid black;
     background-color: rgb(219, 212, 212); 
-    float: right;
+    float: right; /* Обтекание по правому краю */
 }
