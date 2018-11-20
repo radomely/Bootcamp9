@@ -1,98 +1,100 @@
-*{
-    padding: 0;
+* {
+  padding: 0;
+  margin: 0;
 }
-.product-list{
-    width: 1110px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    list-style: none;
+.product-list {
+  width: 1110px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
 }
 
-.product-item{
-    width: 255px;
+.product-item {
+  width: 255px;
 }
 
 .prod-link:hover .buttons {
-    display: flex;
+  display: flex;
 }
 
-.prod-img{
-    width: 255px;
-    height: 282px;
-    display: block;
+.prod-img {
+  width: 255px;
+  height: 282px;
+  display: block;
 }
 
-.wrapper{
-    position: relative;
+.wrapper {
+  position: relative;
 }
 
-.buttons{
-    width: 166px;
-    height: 110px;
-    background-color: rgba(100, 200, 50, 0.5);
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    padding: 80px 34px;
-    display: none;
-    justify-content: space-between;
-    flex-wrap: wrap;
+.buttons {
+  width: 166px;
+  height: 110px;
+  background-color: rgba(100, 200, 50, 0.5);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 80px 34px;
+  display: none;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
-.add, .icon{
-    display: block;
-    border: 1px solid #ffffff;
-    background-color: transparent;
+.add,
+.icon {
+  display: block;
+  border: 1px solid #ffffff;
+  background-color: transparent;
 }
 
-.icon{
-    border: 1px solid #ffffff;
-    width: 50px;
-    height: 50px;
-    background-repeat: no-repeat;
-    background-position: center;
+.icon {
+  border: 1px solid #ffffff;
+  width: 50px;
+  height: 50px;
+  background-repeat: no-repeat;
+  background-position: center;
 }
-.icon:hover{
-    background-color: #1abc9c;
-    border: 1px solid #1abc9c;
-}
-
-.like{
-    background-image: url("../img/heart.png");
+.icon:hover {
+  background-color: #1abc9c;
+  border: 1px solid #1abc9c;
 }
 
-.shuffle{
-    background-image: url("../img/arrows.png");
+.like {
+  background-image: url("../img/heart.png");
 }
 
-.clock{
-    background-image: url("../img/cloack.png");
+.shuffle {
+  background-image: url("../img/arrows.png");
 }
 
-.add{
-    margin-top: 7px;
-    width: 100%;
-    text-transform: uppercase;
-    background-color: #888888;
+.clock {
+  background-image: url("../img/cloack.png");
 }
 
-.add:hover{
-    background-color: #333333;
+.add {
+  margin-top: 7px;
+  width: 100%;
+  text-transform: uppercase;
+  background-color: #888888;
 }
 
-.basket{
-    display: flex;
-    align-items: center;
-    color: #ffffff;
+.add:hover {
+  background-color: #333333;
 }
 
-.basket::before{
-    content: "";
-    background-image: url("../img/basket.png");
-    width: 28px;
-    height: 27px;
-    display: block;
-    margin: 11px 20px 11px 13px;
+.basket {
+  display: flex;
+  align-items: center;
+  color: #ffffff;
+}
+
+.basket::before {
+  content: "";
+  background-image: url("../img/basket.png");
+  width: 28px;
+  height: 27px;
+  display: block;
+  margin: 11px 20px 11px 13px;
 }
