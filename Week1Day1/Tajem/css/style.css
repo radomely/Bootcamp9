@@ -1,0 +1,169 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    background-image: url("../img/1511870500199684234.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #ffffff;
+    padding-bottom: 70px;
+}
+
+.header, .slider{
+    width: 940px;
+    margin: 0 auto;
+}
+
+.header, .menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header{
+    padding-top: 15px;
+}
+
+.menu{
+    font-family: Roboto;
+    font-weight: 800;
+    font-size: 13px;
+    color: #ffffff;
+    width: 526px;
+    list-style: none;
+    text-transform: uppercase;
+}
+
+.menu-item:hover{
+    color: #00e0d0;
+}
+
+.slider{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.slider-title{
+    margin-top: 183px;
+}
+
+.slider-title:after{
+    content: "";
+    display: block;
+    width: 50px;
+    height: 1px;
+    background-color: #00e0d0;
+    margin: 21px auto 0;
+}
+
+.slider-text{
+    font-family: Roboto;
+    width: 770px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.more{
+    text-decoration: none;
+    color: #00e0d0;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 15px;
+    border: 1px solid #00e0d0;
+    margin-top: 50px;
+}
+
+.more:hover{
+    color: #ffffff;
+    background-color: #00e0d0;
+}
+
+.slider-dots{
+    margin-top: 127px;
+}
+
+.our-story{
+    padding: 70px 0;
+    display: flex;
+    justify-content: space-between;
+    width: 873px;
+    margin: 0 auto;
+ }
+ 
+ .story-logo{
+    width: 229px;
+    height: 235px;
+ }
+ 
+ .story-text{
+    width: 538px;
+    margin-top: 28px;
+ }
+ 
+ .our-story .more{
+    margin-top: 32px;
+ }
+
+ .player{
+    background-image: url("../img/bg2.png");
+    padding: 202px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+    color: #ffffff;
+ }
+
+ .player-button{
+    width: 100px;
+    height: 100px;
+    background-image: url("../img/Composed-layer@1X.png");
+    border: none;
+    background-color: transparent;
+ }
+
+ .player-text{
+    margin-top: 34px;
+
+ }
+
+ .expertise{
+    padding: 70px o;
+    margin: 0 auto;
+    text-align: center;
+ }
+
+ .expertise-block{
+    width: 940px;
+    margin: 0 auto;
+ }
+
+ .expertise-subtitle{
+     margin-top: 16px;
+ }
+
+ .expertise-subtitle::after{
+     content: "";
+     margin: 17px auto 0;
+     display: block;
+     width: 50px;
+     height: 2px;
+     background-color: #00e0d0;
+ }
+
+.our-works_tittle{
+    display: flex;
+    justify-content: space-between;
+    width: 940;
+    margin: 0 auto;
+    padding: 70px 0;
+}
+
+ /* -n +3 */

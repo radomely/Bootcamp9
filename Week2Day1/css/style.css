@@ -1,0 +1,75 @@
+.header, footer{
+    font-size: 36px;
+    text-align: center;
+    background-color: bisque;
+    color: brown;
+    padding: 50px 0;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+}
+
+.menu{
+    position: relative;
+}
+
+.submenu, .sub-submenu{
+    position: absolute;
+    left: 70px;
+    top: 19px;
+    display: none;
+}
+
+.first:hover .submenu{
+    display: block;
+}
+
+.second:hover .sub-submenu{
+    display: block;
+}
+
+.big-block {
+    width: 500px;
+    height: 500px;
+    background-color: rgb(101, 41, 119);
+    position: relative;
+}
+.wrapper{
+position: relative;
+}
+
+.block1, .block2, .block3{
+    width: 200px;
+    height: 200px;
+    border: 3px solid #000000;
+}
+
+.block1{
+background-color: crimson;
+color: rgb(19, 12, 12);
+}
+
+.block2{
+    display: none;
+background-color: yellow;
+position: relative;
+top: -50px;
+left: 30px;
+right: 0px;
+bottom: 0px;
+border-radius: 50%;
+}
+.hover:hover .block2{
+    display: block;
+}
+
+.block3{
+background-color: green;
+}
+
+.conteiner{
+    width: 900px;
+    margin: auto;
+    text-align: center;
+    background-image: linear-gradient(rgba(5,5,5,5),rgba(5,5,5,5),url(''));
+}
