@@ -29,6 +29,9 @@
     line-height: 1.2;
     text-align: left;
   }  
+  .statistics-paragraph{
+
+  }
   .statistics-article-text{
     width: 697px;
     margin-left: 29px;
@@ -52,7 +55,8 @@
     text-align: left;
   }
   .statistics-article-item::before{
-    margin-left: 29px;
+    margin-right: 29px;
+    margin-left: 79px;
       content: "";
       /* margin: 30px auto 60px auto; */
       display: inline-block;
