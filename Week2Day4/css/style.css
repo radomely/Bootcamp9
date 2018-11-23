@@ -4,18 +4,11 @@
   }
   .statistics-article {
     background-color: rgb(251, 250, 248);
-    /* position: relative;
-    left: 0px;
-    top: 0px; */
     width: 1920px;
-    /* height: 695px; */
     padding-top: 79px;
     display: flex;
     justify-content: center;
   }
-  /* .statistics-article-column{
-      width: 701px;
-  } */
   .statistics-article-img{
     display: block;
   }
@@ -29,9 +22,6 @@
     line-height: 1.2;
     text-align: left;
   }  
-  .statistics-paragraph{
-
-  }
   .statistics-article-text{
     width: 697px;
     margin-left: 29px;
@@ -58,7 +48,7 @@
     margin-right: 29px;
     margin-left: 79px;
       content: "";
-      /* margin: 30px auto 60px auto; */
+      vertical-align:  middle;
       display: inline-block;
       width: 21px;
       height: 21px;
@@ -72,11 +62,7 @@
     background-image: -moz-linear-gradient( 0deg, rgb(33,27,25) 0%, rgb(78,52,39) 100%);
     background-image: -webkit-linear-gradient( 0deg, rgb(33,27,25) 0%, rgb(78,52,39) 100%);
     background-image: -ms-linear-gradient( 0deg, rgb(33,27,25) 0%, rgb(78,52,39) 100%);
-    /* position: relative;
-    left: 0px;
-    top: 0px; */
     width: 1920px;
-    /* height: 300px; */
   }
   .statistics-block-ul{
     display: flex;
