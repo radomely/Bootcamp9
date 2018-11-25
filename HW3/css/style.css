@@ -90,3 +90,7 @@
     margin: 54px auto 70px;
     display: block;
   }
+  .footer-button:hover{
+      color: white;
+      background-color: #03a9f4;
+  }
