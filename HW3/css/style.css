@@ -1,97 +1,92 @@
 *{
     margin: 0;
     padding: 0;
-    outline: 2px red solid;    
+    /* outline: 2px red solid; */ 
 }
-
-.header{
-    padding: 30px 0;
-    width: 1024px;
+.container {
+    width: 900px;
     margin: 0 auto;
-    background-color: rgb(192, 181, 181);
-    box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
-
+.header{
+    padding-top: 77px;
+    padding-bottom: 103px;
+}
 .menu{
-    width: 1024px;
-    background-color: rgb(255, 255, 255);
-    text-align: justify;
+    list-style: none;
+    text-align: center;
 }
-
 .menu-item{
     display: inline-block;
-    text-decoration: none;
+    width: 200px;
 }
-
 .menu-link{
     text-decoration: none;
     font-size: 14px;
-    font-family: 'Playfair Display', serif;
+    font-family: "Playfair Display", serif;
     color: rgb(98, 98, 98);
     text-transform: uppercase;
+    line-height: 1.714;
     text-align: center;
 }
-
 .menu-link:hover{
-    text-decoration: none;
     color: #03a9f4;
 }
-
-/* .logo-img{
-    margin-left: 50px;
-    width: 200px;
-    height: 70px;
-    box-shadow: 76px -14px 76px 1px rgba(219,21,219,1);
-} */
-
 .main{
-    width: 1024px;
-    margin: 0 auto;
-/* font-size: 0; */
-}
-
-.title{
-    width: 400px;
-    margin: auto;
-    background-color: aquamarine;
-    color: rgb(49, 20, 131);
-    /* font-style: italic; */
-    font-size: 40px;
-    text-align: center;
-    font-family: Arial, Helvetica, sans-serif;    
-    letter-spacing: 10px;
-    font-weight: 800;
-    text-transform: uppercase;
-}
-
-.text{
-    font-size: 10px;
-    line-height: 1;
-} 
-
-
-.footer{
-    width: 1024px;
-    background-color: brown;
-    /* height: 300px; */
+    width: 900px;
     margin: 0 auto;
 }
-
+.article{
+    width: 420px;
+    float: left;
+}
+.article:nth-child(2n-1){
+    padding-right: 60px;
+}
+.article:nth-child(n+3){
+    padding-top: 130px;
+}
 .clearfix:after {
     content: "";
     display: table;
     clear: both;
 }
-
-
-/* .border{
-    display: block;
-    border-radius: 106px 24px 38px 165px;
-} */
-
-.article{
-    width: 460px;
-    border: 2px solid black;
-    background-color: rgb(219, 212, 212); 
-    float: right; /* Обтекание по правому краю */
+.picture{
+    width: 100%;
+    height: 280px;
 }
+.picture_description{
+    font-size: 14px;
+    font-family: "Ubuntu Light", sans-serif;
+    color: rgb(180, 173, 158);
+    text-transform: uppercase;
+    line-height: 1.2;
+    padding-top: 31px;
+}  
+.title{
+    font-size: 30px;
+    font-family: "Playfair Display", serif;
+    color: rgb(98, 98, 98);
+    line-height: 1.2;
+    text-align: left;
+    padding-top: 28px;
+  }
+.text{
+    font-size: 14px;
+    font-family: "Playfair Display", serif;
+    color: rgb(98, 98, 98);
+    line-height: 1.714;
+    text-align: left;
+    padding-top: 34px;
+  }
+.footer-button{
+    font-size: 20px;
+    font-family: "Playfair Display", serif;
+    color: rgb(98, 98, 98);
+    line-height: 1.2;
+    border: 1px solid rgb(98, 98, 98);
+    width: 162px;
+    height: 58px;
+    background: none;
+    margin: 54px auto 70px;
+    display: block;
+  }

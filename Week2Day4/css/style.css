@@ -2,9 +2,12 @@
       margin: 0px;
       padding: 0px;
   }
+  .statistics{
+      max-width: 1200px;
+      margin: 0 auto;
+  }
   .statistics-article {
     background-color: rgb(251, 250, 248);
-    width: 1920px;
     padding-top: 79px;
     display: flex;
     justify-content: center;
@@ -52,7 +55,7 @@
       display: inline-block;
       width: 21px;
       height: 21px;
-      background-image:url("../img/item.png")
+      background-image:url("../img/statistics-item.png")
   }
   
 
@@ -62,7 +65,6 @@
     background-image: -moz-linear-gradient( 0deg, rgb(33,27,25) 0%, rgb(78,52,39) 100%);
     background-image: -webkit-linear-gradient( 0deg, rgb(33,27,25) 0%, rgb(78,52,39) 100%);
     background-image: -ms-linear-gradient( 0deg, rgb(33,27,25) 0%, rgb(78,52,39) 100%);
-    width: 1920px;
   }
   .statistics-block-ul{
     display: flex;
