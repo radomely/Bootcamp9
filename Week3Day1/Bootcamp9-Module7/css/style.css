@@ -1,0 +1,64 @@
+@font-face {
+    font-family: "VarelaRound";
+    src: url('../fonts/Varela_Round/VarelaRound-Regular.ttf')  format('truetype'); /* Только если нужна поддержка старых Android, иначе закомментировать */
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Lato";
+    src: url('../fonts/Lato/Lato-Regular.ttf')  format('truetype'); /* Только если нужна поддержка старых Android, иначе закомментировать */
+    font-weight: normal;
+    font-style: normal;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    /* outline: 1px solid red; */
+}
+.andrii-subscribe{
+    padding: 89px 0px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.andrii-subscribe-title{
+    font-size: 42px;
+    font-family: "VarelaRound", sans-serif;
+    color: rgb(38, 41, 44);
+    text-align: center;
+  }
+.andrii-form-subscribe{
+    border: 1px solid #d4d4d5;
+    border-radius: 25px;
+    width: 562px;
+    margin: 50px auto 0px;
+    padding: 3px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.andrii-subscribe-p{
+    padding-top: 28px;
+    font-size: 14px;
+    font-family: "Lato", sans-serif;
+    color: rgb(140, 143, 148);
+}
+.subscribe-email{
+    padding-left: 23px;
+    font-size: 16px;
+    font-family: "Lato", sans-serif;
+    color: rgba(38, 41, 44, 0.702);
+    text-align: left;
+    border: none;
+  }
+ #andrii-subscribe{
+    font-size: 16px;
+    font-family: "Lato";
+    color: rgb(255, 255, 255);
+    width: 134px;
+    height: 42px;
+    background-color: #6fc754;
+    border-radius: 21px;
+    border: none;
+  }

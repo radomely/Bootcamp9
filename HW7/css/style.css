@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'Web font';
+    src: url('webfont.woff2') format('woff2'),
+         url('webfont.ttf')  format('truetype'), /* Только если нужна поддержка старых Android, иначе закомментировать */
+         url('webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+  .logo {
+    font-size: 26px;
+    font-family: "Wisdom";
+    color: rgb(255, 255, 255);
+    line-height: 1.577;
+    text-align: left;
+    position: absolute;
+    left: 235.937px;
+    top: 37.499px;
+    z-index: 53;
+  }
