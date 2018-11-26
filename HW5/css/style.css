@@ -109,7 +109,7 @@ main{
     background-color: #e9f0fd;
 }
 .products{
-    margin: auto 0;
+    margin: auto auto;
     width: 1125px;
 }
 .products-title {
