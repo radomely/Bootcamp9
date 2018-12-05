@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background-color: #19283f;
+
+}
+.header-wrapper{
+    width: 61%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1rem;
+    align-items: center;
+}
+.header-menu_wrapper{
+    color: #a8b9c0;
+    display: flex;
+    justify-content: space-between;
+}
+.menu-list{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+.menu-item{ 
+    margin: auto 21px;
+    font-size: 15px;
+    font-family: "Roboto";
+    color: rgb(168, 185, 192);
+    line-height: 1.8;
+}
+.header-svg{
+    border-left: 1px solid #31ff5e;
+    height: 21px;
+    width: 22px;
+    fill: #069f9f;
+}
+.header-block_link{
+    background-color: #ff3150;
+    text-decoration: none;
+    padding: 13px 34px;
+    border-radius: 1.25rem;
+    font-size: 15px;
+    font-family: "Roboto";
+    color: rgb(255, 197, 1);
+    line-height: 1.8;
+}
+.topsection{
+    background-color: #19283f;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(240, 248, 251);
+    padding-bottom: 8.375rem;
+
+}
+.topsection-title{
+    margin-top: 9.0625rem;
+    font-size: 51px;
+    font-family: "Roboto";
+    line-height: 0.528;
+  }
+.topsection-subtitle{
+    margin-top: 1rem;
+    font-size: 15px;
+    font-family: "Roboto";
+    color: rgb(168, 185, 192);
+    line-height: 1.8;
+  }
+.topsection-link{
+    margin-top: 2.125rem;
+    text-align: center;
+    line-height: 2.8125rem;
+    font-size: 15px;
+    font-family: "Roboto";
+    color: rgb(255, 197, 1);
+    background-color: rgb(255, 49, 80);
+    width: 190px;
+    height: 45px;
+    border-radius: 1.25rem;
+    text-decoration: none;
+  }
+  
+  .molecule-svg{
+      height: 78px;
+      width: 56px;
+      fill: #ffc400;
+      display: block;
+      margin: 0 auto;
+  }
+
+  .goodat-title{
+      text-align: center;
+  }
+
+  .goodat-subtitle{
+      text-align: center;
+  }

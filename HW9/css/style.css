@@ -1,0 +1,37 @@
+*{outline: 1px solid red}
+.header-title{
+    font-size: 1.875rem;
+    font-family: "montserrat";
+    font-weight: 700;
+}
+.background-image{
+    background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url(../img/bg_320@1X.png);
+    background-position: center;
+    background-size: cover;
+    color: #ffffff;
+}
+.nazarius{
+    /* text-decoration: none; */
+    color: #ffffff;
+}
+.header-subtitle{
+    font-size: 1.125rem;
+}
+.header-link{
+    display: block;
+}
+.section-list{
+    list-style: none;
+}
+.section-title{
+    font-size: 1.375rem;
+    font-family: "Montserrat";
+    font-weight: 700;
+}
+.img-icon{
+    height: 17px;
+    width: 17px;
+}
+.item-img{
+    border-radius: 50%;
+}

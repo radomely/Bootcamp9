@@ -1,0 +1,90 @@
+@font-face {
+    font-family: 'Questrial';
+    src: url('../fonts/Questrial-Regular.ttf')  format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+*{
+    margin: 0%;
+    padding: 0rem;
+    /* outline: 1px solid red; */
+}
+.andrii-section-one{
+    background-image: url(../img/Backgra.png);
+    background-size: cover;
+    color:rgb(255, 255, 255);
+}
+.andrii-block{
+    margin: 0 auto;
+    width: 63.3125rem;
+}
+.andrii-article{
+    padding-bottom: 11.0625rem;
+}
+.andrii-infografic   {
+    padding-top: 4.6875rem;
+    font-size: 15px;
+    font-family: 'Questrial', sans-serif;
+    color: rgb(251, 104, 22);
+}
+.andrii-infografic:after{
+    content: "";
+    display: block;
+    background-color: rgb(251, 104, 22);
+    margin-top: 0.6875rem;
+    width: 27.5625rem;
+    height: 0.125rem;
+}
+.andrii-title{
+    padding-top: 1.5rem;
+    font-size: 30px;
+    font-family: 'Questrial', sans-serif;
+    color: rgb(255, 255, 255);
+    text-align: left;
+    width: 25rem;
+}
+.andrii-text{
+    padding-top: 1.5rem;
+    font-size: 15px;
+    font-family: 'Questrial', sans-serif;
+    color: rgb(112, 120, 140);
+    width: 19rem;
+}  
+.andrii-link{
+    margin-top: 2.9375rem;
+    text-decoration: none;
+    display: block;
+    padding: 0.875rem 1.625rem 0.875rem 1.625rem;
+    box-shadow: 0px 2px 1px 1px #fb5d1473;
+    width: 5rem;
+    background-color: #fb5d14;
+    border-radius: 0.3rem;
+    font-size: 15px;
+    font-family: 'Questrial', sans-serif;
+    color: rgb(255, 255, 255);
+}
+.andrii-title2{
+    padding-top: 6rem;
+    font-size: 25px;
+    font-family: 'Questrial', sans-serif;
+    color: rgb(251, 104, 22);
+    text-align: center;
+  }
+.andrii-title2:after{
+    content: "";
+    display: block;
+    background-color: rgb(251, 104, 22);
+    margin-top: 2.6875rem;
+    width: 100%;
+    height: 0.125rem;
+}
+.andrii-text2{
+    margin: 0 auto;
+    padding-top: 2.5rem;
+    font-size: 15px;
+    font-family: "Questrial";
+    color: rgb(68, 73, 94);
+    line-height: 2;
+    text-align: center;
+    width: 43.5rem;
+}

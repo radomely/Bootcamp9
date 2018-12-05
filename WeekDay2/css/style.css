@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.omg-body-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 750px);
+    grid-templates-rows: repeat(11,500px);
+    grid-template-areas:
+    "header header"
+    "about-us-img about-us-titl"
+    "tattoo-gallery tattoo gallery";
+}
+.header{
+    grid-area: header;
+}
+.about-us-img{
+    grid-area: about-us-img;
+}
+.about-us-title{
+    grid-area: about-us-title;
+}
+.john-doe{
+    grid-area: john-doe;
+}
+.tattoo-gallery{
+    grid-area: tattoo-gallery;
+    display: grid;
+    grid-template-columns: repeat(6,250px);
+    grid-template-columns: 250px 250px;
+}
