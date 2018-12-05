@@ -1,0 +1,50 @@
+.title{
+    font-family: Courier;
+    font-size: 18px;
+    font-weight: 700;
+    color: rgb(0, 77, 187);
+    text-align: center;
+}
+.text{
+    font-family: calibri;
+    font-size: 11px;
+}
+.left{
+    text-align: left;
+}
+.right{
+    text-align: right;
+}
+.underline-italic{
+    text-decoration: underline;
+    font-style: italic;
+}
+.underline-bold{
+    text-decoration: underline;
+    font-weight: 700;
+}
+.italic{
+    font-style: italic;
+}
+.bold14{
+    font-size: 14px;
+    font-weight: 700;
+}
+.calibri14{
+    font-size: 14px;
+}
+.red-underline{
+    color: #ff0000;
+    font-weight: 700;
+    text-decoration: underline;
+}
+.title-two{
+    font-family: Courier;
+    font-size: 18px;
+    font-weight: 700;
+}
+.blue-bold-italic{
+    font-weight: 700;
+    font-style: italic;
+    color: rgb(0, 77, 187);
+}
