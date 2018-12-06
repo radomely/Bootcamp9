@@ -1,14 +1,13 @@
 /*
    Import partials below
 */
-@import './normalize';
+@import "./normalize";
 .shadow {
-   background-image: url("shadow.png");
-   position: absolute;
-   left: 224px;
-   top: 472px;
-   width: 233px;
-   height: 292px;
-   z-index: 195;
- }
- 
+  background-image: url("shadow.png");
+  position: absolute;
+  left: 224px;
+  top: 472px;
+  width: 233px;
+  height: 292px;
+  z-index: 195;
+}
