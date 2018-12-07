@@ -68,10 +68,10 @@ $black: #212121;
     padding: 15px 0 15px 8px;
     @include font-style;
     &:valid {
-      outline: 2px solid green;
+      outline: 2px solid #008000;
     }
     &:invalid {
-      outline: 2px solid red;
+      outline: 2px solid #ff0000;
     }
     &::placeholder {
       @include font-style(14, #bdbdbd);
