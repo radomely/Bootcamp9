@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 1px solid red;
+}
+.wraper{
+    background-image: url("../img/Background\ Image@1X.png");
+    background-size: cover;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+.header__logo{
+    display: block;  
+}
+.header__menu{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    font-size: 14px;
+    font-family: "Montserrat";
+    color: #ffffff;
+    text-transform: uppercase;
+    line-height: 2.929;
+    text-align: center;
+    font-weight: 700;
+}

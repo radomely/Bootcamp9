@@ -1,0 +1,91 @@
+/*
+   Import partials below
+*/
+@import './normalize';
+
+
+@mixin font-style($font-size: 14, $color: #424242,  $text-transform: uppercase, $font-weight: 400, $font-family: "Open Sans"){
+   font-family: $font-family, sans-serif;
+   text-transform: $text-transform;
+   font-size: $font-size+px;
+   font-weight: $font-weight;
+   color: $color;
+}
+
+$blue: #0091ea;
+$black: #212121;
+
+.wrapper{
+   width: 2000px;
+   background-image: linear-gradient(135deg, rgba(172,35,61,1) 0%,rgba(11,132,228,1) 50%,rgba(133,59,102,1) 100%);
+   background-repeat: no-repeat;
+   background-size: cover;
+   display: flex;
+   justify-content: space-between;
+   align-items: flex-start;
+   flex-wrap: wrap;
+   padding: 90px 240px;
+}
+.form{
+   padding: 43px 23px;
+   background-color: #f8f5f8;
+   width: 486px;
+   display: flex;
+   flex-direction: column;
+   box-shadow: 0px 10px 25px 0px rgba(0, 0, 0, 0.5);
+   &--width{
+      width: 940px;
+      flex-direction: row;
+      align-items: flex-start;
+      flex-direction: column;
+   }
+   &__text{
+      @include font-style(40);
+      text-align: center;
+      margin-bottom: 48px;
+   }
+   &__label{
+      @include font-style;
+      margin-bottom: 26px;
+      &--uppercase{
+         @include font-style(16, $black, none);
+      }
+   }
+   &__email, &__name, &__password {
+      margin-bottom: 40px;
+      padding: 15px 0 15px 8px;
+      @include font-style;
+      &:valid{
+         outline: 2px solid green;
+      }
+      &:invalid{
+         outline: 2px solid red;
+      }
+      &::placeholder{
+         @include font-style(14, #bdbdbd);
+      }
+      &--width{
+         width: 439px;
+      }
+   }
+   &__submit{
+      margin-bottom: 40px;
+      background-color: $blue;
+      padding: 20px 160px;
+      @include font-style(14, #ffffff);
+      &--width{
+         width: 439px;
+      }
+   }
+   &__link{
+      @include font-style(16, $blue, none);
+      text-decoration: none;
+   }
+   &__checkbox{
+      @include font-style(16, $black, none);
+   }
+   &__wrapper{
+      display: flex;
+      justify-content: space-between;
+   }
+}
