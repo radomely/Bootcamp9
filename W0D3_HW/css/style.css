@@ -1,3 +1,18 @@
+/* Courier-regular - latin */
+@font-face {
+    font-family: 'Courier';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/CourierNew.ttf') format('truetype'), /* Safari, Android, iOS */
+  }
+/* calibri-regular - latin */
+@font-face {
+    font-family: 'calibri';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/Calibri.ttf') format('truetype'); /* Safari, Android, iOS */
+  }
+    
 .title{
     font-family: Courier;
     font-size: 18px;
