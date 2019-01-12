@@ -1,0 +1,22 @@
+.backgraundColor{
+    background-color: #3f3f3f;
+    
+}
+.menu{
+    padding: 20px 0px;
+}
+.menu-item{
+    margin: 0px auto;
+    padding: 15px;
+    list-style-type: none;
+    background-color: #ffffff;
+    width: 150px;
+    border-bottom: 2px solid #000000;
+    text-align: center;
+}
+.menu-item__logo{
+    width: 150px;
+}
+.menu-item__link{
+    text-decoration: none;
+}
