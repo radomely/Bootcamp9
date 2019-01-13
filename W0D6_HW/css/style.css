@@ -1,0 +1,53 @@
+/* pt-sans-narrow-regular - latin-ext_cyrillic-ext_latin_cyrillic */
+@font-face {
+    font-family: 'PT Sans Narrow';
+    font-style: normal;
+    font-weight: 400;
+    src: local('PT Sans Narrow'), local('PTSans-Narrow'),
+         url('../fonts/pt-sans-narrow-v9-latin-ext_cyrillic-ext_latin_cyrillic-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/pt-sans-narrow-v9-latin-ext_cyrillic-ext_latin_cyrillic-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  
+  /* pt-sans-narrow-700 - latin-ext_cyrillic-ext_latin_cyrillic */
+  @font-face {
+    font-family: 'PT Sans Narrow';
+    font-style: normal;
+    font-weight: 700;
+    src: local('PT Sans Narrow Bold'), local('PTSans-NarrowBold'),
+         url('../fonts/pt-sans-narrow-v9-latin-ext_cyrillic-ext_latin_cyrillic-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/pt-sans-narrow-v9-latin-ext_cyrillic-ext_latin_cyrillic-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  
+  
+*{
+    margin: 0;
+    padding: 0;
+}
+.backgraundColor{
+    background-color: #faf6f3;
+}
+.card{
+    margin: 14px auto;
+    width: 220px;
+    box-shadow: 0px 0px 15px -5px rgba(0,0,0,0.75);
+    background-color: #ffffff;
+    font-family: 'PT Sans Narrow', Helvetica, sans-serif;
+    color: #000000;
+}
+.card__text-box{
+    padding: 16px;
+}
+.card__price{
+    display: inline-block;
+    margin-top: 16px;
+    padding: 16px 25px;
+    background-color: #e6e6e6;
+    line-height: 1;
+}
+.card__button{
+    border: none;
+    color: #ffffff;
+    background-color: #000000;
+    margin-top: 16px;
+    padding: 16px 14px;
+}
