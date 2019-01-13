@@ -121,10 +121,10 @@
 }
 .cadr__text{
     display: inline-block;
-    margin-right: 235px;
     font-size: 24px;
 }
 .card__img-dots{
+    float: right;
     height: 20px;
 }
 .card__link{
